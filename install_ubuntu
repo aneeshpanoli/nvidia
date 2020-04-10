@@ -1,0 +1,11 @@
+from grub boot to recovery
+sudo apt-get -purge '^nvidia-.*'
+sudo apt-get autoremove
+
+reboot
+
+
+install new driver
+sudo apt-get install nvidia-driver-versionnum
+
+sudo prime-select nvidia 
